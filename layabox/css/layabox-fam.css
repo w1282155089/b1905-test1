@@ -1,0 +1,107 @@
+.navbar-brand{
+    padding-top: 6px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.banner{
+    background-color: #2b80d9;
+}
+.engine{
+    background-color: #8bc01f;
+    padding: 65px 0;
+    color: white;
+}
+.chunk{
+    color: #8bc01f;
+    background-color: white;
+    display: block;
+    width: 40px;
+    position: absolute;
+    border-radius: 5px;
+    font-weight: 900px;
+}
+.chunk1{
+    margin-left: 50px;
+}
+.engine .pack{
+    padding: 0 20px;
+}
+.engine .pack h4{
+    margin-bottom: 70px;
+}
+.engine .pack p{
+    margin-bottom: 30px;
+}
+.engine .pack .engine_2 a{
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    line-height: 40px;
+    color: #8bc01f;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600px;
+}
+.engine h1{
+    position: relative;
+}
+.intro{
+    background-color: #3393df;
+    padding: 65px 0;
+    color: white;
+}
+.intro .chunk{
+    color: #3393df;
+}
+.intro .icno{
+   margin-top: 70px;
+   margin-left: 0px;
+   padding: 0px;
+}
+.cont{
+    padding: 65px 0;
+}
+.cont h1{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.cont h1 span{
+    color: #3393df;
+}
+.cont p{
+    text-indent: 2rem;
+}
+.cont .chunk{
+    background-color: #3393df;
+    color: white;
+}
+.conte{
+    background-color: #f7f7f7;
+    padding: 65px 0;
+}
+.conte h1{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.conte h1 span{
+    color: #3393df;
+}
+.conte p{
+    text-indent: 2rem;
+}
+.conte .chunk{
+    background-color: #3393df;
+    color: white;
+}
+.fon-color{
+    color: #3393df;
+    margin-top: 40px;
+}
+.foot{
+    background-color: rgb(59, 59, 59);
+}
+.foot-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

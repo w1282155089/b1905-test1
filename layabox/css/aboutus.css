@@ -1,0 +1,60 @@
+.navbar-brand{
+    padding-top: 6px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.content-1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.content-1 .right img{
+    padding-top: 100px;
+}
+.content-2{
+    color: white;
+    background-color: rgb(140, 193,31)
+}
+.content-2 .row{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.content-2 .left .p1{
+    margin-top: 55px;
+}
+.content-2 .right .p2{
+    width: 220px;
+    height: 55px;
+    font-size: 22px;
+    border-radius: 8px;
+    line-height: 50px;
+    color: rgb(140, 193,31);
+    background-color: #fff;
+}
+.content-2 .right {
+    margin-top: 112px;
+}
+.contact-way{
+    background-color: rgb(244, 244, 244)
+}
+.media-heading{
+    margin-top: 30px;
+}
+.media{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.media:first-child {
+    margin-top: 30px;
+}
+.content-3 h1{
+    color: rgb(140, 193,31);
+}
+.foot{
+    background-color: rgb(59, 59, 59);
+}
+.foot-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

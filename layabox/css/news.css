@@ -1,0 +1,38 @@
+.navbar-brand{
+    padding-top: 6px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.banner{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.banner h1{
+    color: orange;
+}
+.banner img{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.content{
+    margin-top: 60px;
+    margin-bottom:40px;
+}
+
+.content .content-list .media{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navigation .pagination li{
+    color: black;
+}
+
+.foot{
+    background-color: rgb(59, 59, 59);
+}
+.foot-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

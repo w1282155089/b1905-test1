@@ -1,0 +1,41 @@
+.navbar-brand{
+    padding-top: 6px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.banner{
+    background-color: #2b80d9;
+}
+.list-box{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.list-box .photo img{
+    border-radius: 5px;
+}
+.list-box .photo .col-md-6{
+    margin-top: 40px;
+}
+.morelist{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.morelist img{
+    border-radius: 5px;
+}
+.morelist p{
+    margin-top: 15px;
+}
+.morelist .col-md-4{
+    margin-top: 40px;
+}
+
+
+.foot{
+    background-color: rgb(59, 59, 59);
+}
+.foot-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

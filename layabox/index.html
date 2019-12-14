@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="lib/videojs/css/video-js.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-responsive"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Laya家族</a></li>
+                    <li><a href="#">游戏</a></li>
+                    <li><a href="#">新闻动态</a></li>
+                    <li><a href="#">开发者中心</a></li>
+                    <li><a href="#">开发者社区</a></li>
+                    <li><a href="#">开放平台</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Language<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">中文</a></li>
+                            <li><a href="#">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- banner -->
+    <!-- <div class="container-fluid banner">
+        <div class="row">
+            <img src="images/slider1.jpg" alt="" class="img-responsive center-block">
+        </div>
+    </div> -->
+
+    <!-- Swiper -->
+  <div class="swiper-container banner">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/slider1.jpg" alt="" class="img-responsive center-block"></div>
+          <div class="swiper-slide"><img src="images/slider1.jpg" alt="" class="img-responsive center-block"></div>
+          
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+    <!-- engine -->
+    <div class="container-fluid engine">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-xs-offset-1 col-sm-offset-0 col-sm-12 col-md-7">
+                    <div class="title">
+                        <h1 class="text-primary"><strong>LayaFlash 引擎</strong></h1>
+                        <h3>让Flash技术变成开发HTMl5产品的利器</h3>
+                    </div>
+                    <div class="options col-xs-12 col-sm-6">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="images/flash-001.png" class="img-responsive"
+                                        alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">快速Flash产品转换</h4>
+                                <p>Flash页游\手游仅需1个人7天即可转换为HTML5和APP游戏</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="options col-xs-12 col-sm-6">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="images/flash-002.png" class="img-responsive"
+                                        alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">LayaFlash IDE</h4>
+                                <p>支持代码编译、调试、压缩与混淆加密、资源转换、在线文档等功能</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="options col-xs-12 col-sm-6">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="images/flash-003.png" class="img-responsive"
+                                        alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">HTML5零学习成本</h4>
+                                <p>AS3开发者可直接使用Flash开源框架和工具链进行开发HTML5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="options col-xs-12 col-sm-6">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="images/flash-004.png" class="img-responsive"
+                                        alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">性能媲美APP</h4>
+                                <p>LayaFlash引擎的重度游戏已运行于QQ空间等平台，性能媲美APP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-5">
+                    <img src="images/flash-bg.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- position -->
+    <div class="container-fluid position">
+        <div class="container">
+            <div class="row">
+                <div class="hidden-xs hidden-sm col-md-6">
+                    <img src="images/air-bar.jpg" class="img-responsive center-block ball" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="title">
+                        <h1 class="text-success"><strong>Layabox 优势</strong></h1>
+                    </div>
+                    <div class="options">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object1" src="images/ad01.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <p class="p-1">快速上手，Flash程序员3小时掌握HTML5开发</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object1" src="images/ad02.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <p class="p-1">4年优化打磨，LayaPlayer运行器性能媲美APP</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object1" src="images/ad03.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <p class="p-1">超5亿的LayaPlayer移动设备安装量帮助CP发行</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object1" src="images/ad04.png" class="img-responsive" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <p class="p-1">使用LayaFlash开发大型HTML5游戏的企业超100家</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid family">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center title">
+                    <h1>Layabox产品家族</h1>
+                </div>
+            </div>
+            <div class=" options col-xs-12 col-md-5 col-md-offset-1">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object2" src="images/pro001.png" class="img-responsive" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4>LayaAir</h4>
+                        <p class="center-block">核心库仅100K左右的新一代HTML5引擎，支持AS3\TS\JS语言开发，支持2D\3D，非运行器模式下性能媲美APP。</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" options col-xs-12 col-md-5">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object2" src="images/pro002.png" class="img-responsive" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4>LayaPublish</h4>
+                        <p class="center-block">Layabox发行业务，通过在H5产业链中的技术桥梁优势，帮助CP获得流量支持。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class=" options col-xs-12 col-md-5 col-md-offset-1">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object2" src="images/pro003.png" class="img-responsive" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4>LayaFlash</h4>
+                        <p class="center-block">使用Flash AS3语言开发H5的引擎框架，可直接在FB或FD中开发、调试、编译H5，也可快速将Flash页游\手游转换成H5游戏。</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" options col-xs-12 col-md-5">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object2" src="images/pro004.png" class="img-responsive" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body" style="padding-left: 20px;">
+                        <h4>LayaStore</h4>
+                        <p class="center-block">嵌入式HTML5商城，APP只需嵌入20K的SDK即可以获得托管式HTML5商店服务，进入流量获利新时代。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class=" options col-xs-12 col-md-5 col-md-offset-1">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object2" src="images/pro005.png" class="img-responsive" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4>LayaPlayer</h4>
+                        <p class="center-block">HTML5高速运行器，性能卓越、支持大型HTML5游戏流畅运行，目前已植入QQ、百度等20多家主流平台，安装量超5亿。</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" options col-xs-12 col-md-5">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object2" src="images/pro006.png" class="img-responsive" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4>LayaOpen</h4>
+                        <p class="center-block">Layabox开放平台，整合了Laya提供的各项运营，管理服务的服务，提供给游戏提供商和互联网渠道的统一开放平台。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid game">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1><strong>采用Layabox引擎的精彩游戏</strong><span class="pull-right" style="font-size: 15px;">更多</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" view col-xs-10 col-xs-offset-1 col-md-offset-0 col-md-4">
+                    <video id="my-video" class="video-js video-js vjs-default-skin vjs-big-play-centered col-xs-12"
+                        controls preload="auto" height="200%" poster="images/shipin.jpg" data-setup="{}">
+                        <source src="video/layabox_product.mp4" type="video/mp4">
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                </div>
+                <div class="game-option col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-0">
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/20150917100713908.jpg" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">猎刃2</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/1448595493706470.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">上吧主公</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/20150917100411595.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">醉西游</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/20150917100353560.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">魔卡幻想</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/1448595739820321.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">超能战队</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/1448596805527127.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">刀塔大菠萝</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/20150917100327918.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">轰三国</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/20150917100427748.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">迷你猎人</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/1448615195484288.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">萌挂三国</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/20150917095920748.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">夺塔三国</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/20150917095903153.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">英雄争霸</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-2">
+                        <img src="images/20150917100200350.png" class="img-responsive img-thumbnail" alt="">
+                        <p class="text-center">战争之门</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+                    <h1>合作伙伴 <small>(排序不分先后)</small></h1>
+                </div>
+            </div>
+            <div class="row partner-list">
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1447667000986467.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1447667085837167.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1448604372733640.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1447666979289519.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1447667022735949.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1447667046677762.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1448604300406522.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1448604354220485.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1448604338444954.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1448604384970211.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1447666760298019.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-2">
+                    <a href=""><img src="images/1447666933950076.jpg" alt="" class="img-responsive img-rounded"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid foot">
+        <div class="container">
+            <div class="row foot-title">
+                <div class="col-xs-12 col-md-9">
+                    <div class="row ">
+                        <div class="col-xs-4 col-md-2">
+                            <a href="#" class="text-muted">公司简介</a>
+                        </div>
+                        <div class="col-xs-4 col-md-2">
+                            <a href="#" class="text-muted">联系方式</a>
+                        </div>
+                        <div class="col-xs-4 col-md-2">
+                            <a href="#" class="text-muted">人才招聘</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 ">
+                            <p class="text-muted">All Copyright Reserved by Layabox Inc. 京ICP备15008163号-1 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-3">
+                    <div class="hidden-xs hidden-sm col-md-4">
+                        <img src="images/msg.png" id="app"  class="btn" data-toggle="popover" data-placement="top">
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-4">
+                        <img src="images/wechat.png" alt="" id="app1"  class="btn" data-toggle="popover" data-placement="top">
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-4">
+                        <img src="images/qq.png" alt="" id="app2"  class="btn" data-toggle="popover" data-placement="top">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="lib/bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script>
+            var swiper = new Swiper('.swiper-container', {
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
+    <!-- video.js -->
+    <script src="lib/videojs/js/video.min.js"></script>
+    <script src="lib/videojs/js/lang/zh-CN.js"></script>
+    <script type="text/javascript">
+        // 工具提示
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+        $('#app').popover({
+            trigger: 'hover',//鼠标以上时触发弹出提示框
+            html: true,//开启html 为true的话，data-content里就能放html代码了
+            content: "<img src='images/weixin.png'style='width: 200px;height: 200px;'>"
+        });
+        $('#app1').popover({
+            trigger: 'hover',//鼠标以上时触发弹出提示框
+            html: true,//开启html 为true的话，data-content里就能放html代码了
+            content: "<img src='images/weixin.png'style='width: 200px;height: 200px;'>"
+        });
+        $('#app2').popover({
+            trigger: 'hover',//鼠标以上时触发弹出提示框
+            html: true,//开启html 为true的话，data-content里就能放html代码了
+            content: "<img src='images/weixin.png'style='width: 200px;height: 200px;'>"
+        });
+        var myPlayer = videojs('my-video');
+        videojs("my-video").ready(function () {
+            var myPlayer = this;
+            myPlayer.play();
+        });
+    </script>
+    
+</body>
+
+</html>

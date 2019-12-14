@@ -1,0 +1,72 @@
+.navbar-brand{
+    padding-top: 6px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.banner{
+    background-color: #2b80d9;
+}
+.engine{
+    margin-top: 100px;
+    background-color: #fbfaf7;
+}
+.media-object{
+    background-color: #2b80d9;
+}
+.position{
+    margin-top: 100px;
+}
+.media-object1{
+    background: rgb(143, 195,31);
+}
+.p-1{
+    margin-top: 12px;
+}
+.family{
+    background-color:rgb(0, 121, 215);
+    color: white;
+}
+.family .title{
+    margin-top: 100px;
+}
+.family .media{
+    margin-top: 50px;
+}
+.family .media .media-body{
+    padding-left: 40px;
+}
+.ball{
+    width: 60%;
+    height: 60%;
+    line-height: 10px;
+}
+.position{
+    margin-bottom: 50px;
+}
+.family .options:last-child{
+    margin-bottom: 50px;
+}
+.game{
+    margin-top: 100px;
+}
+.game-option img{
+    border: 0px;
+}
+.game div{
+    margin-bottom: 20px;
+}
+.partner{
+    background-color: #f4f4f4;
+    padding: 40px 0 60px;
+}
+.partner .partner-list div{
+    margin-bottom: 20px;
+}
+.foot{
+    background-color: rgb(59, 59, 59);
+}
+.foot-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
